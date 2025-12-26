@@ -1,0 +1,1 @@
+select to_char(to_date('{current_week}','yyyyww')- interval '9 weeks','yyyyww') as last_trx_cutooff_week
